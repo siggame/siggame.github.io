@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>MegaMinerAI Rules</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Links and style -->
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cosmo/bootstrap.min.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/blog/static/css/sticky-footer.css" rel="stylesheet"/>
+    <link href="/blog/static/css/pygment_emacs.css" rel="stylesheet"/>
+    <link href="/blog/static/css/style.css" rel="stylesheet"/>
+    <link href="/blog/static/css/form-fix.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/blog/static/img/favicon.ico?v=2" />
+
+    <!-- jQuery needs to be made available earlier than the other scripts -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54373140-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" title="SIG-Game" class="navbar-brand" rel="home">
+        <img src="/blog/static/img/brand.svg" alt="SIG-Game" class="img-responsive" />
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="">
+          <a href="/blog/">Blog</a>
+        </li>
+
+        <li class=" dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            About Us <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/blog/about/">About Us</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="/blog/about/#Brief-History">Brief History</a>
+            </li>
+            <li>
+              <a href="/blog/about/#What-We-Do">What We Do</a>
+            </li>
+            <li>
+              <a href="/blog/about/#Projects">Projects</a>
+            </li>
+            <li>
+              <a href="/blog/about/#Contact-Us">Contact Us</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="active dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            MegaMinerAI <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/blog/about/#What-We-Do">About MegaMinerAI</a>
+            </li>
+            <li>
+              <a href="/blog/MegaMinerAI-Rules">Competition Rules</a>
+            </li>
+            <li>
+              <a href="http://docs.megaminerai.com/">Documentation</a>
+            </li>
+            <li>
+              <a href="/blog/ssh-fingerprint">Our SSH Fingerprint</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="">
+          <a href="/blog/sponsors">Our Sponsors</a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="https://megaminerai.com" class="btn-success">Go to MegaMinerAI.com <i class="fa fa-arrow-circle-right"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container">
+  <div class="row">
+    <div id="content" class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10">
+      <h1 id="megaminerai-competition-rules">MegaMinerAI Competition Rules</h1>
+
+<h2 id="definitions">Definitions</h2>
+
+<p>The following terms are used in this document:</p>
+
+<ul>
+  <li><strong>ACM</strong>: ACM refers to Missouri S&amp;T’s local chapter of the
+Association of Computing Machinery. It is a Recognized Student
+Organization (RSO) at Missouri S&amp;T.</li>
+  <li><strong>SIG-Game</strong>: Missouri S&amp;T ACM SIG-Game is a special interest group
+of Missouri S&amp;T’s local chapter of ACM. Its purpose is to host
+MegaMinerAI once per semester. This includes logistics involved in
+hosting the competition, as well as development of software
+required to support it.</li>
+  <li><strong>SIG-Game Developer</strong>: A member of SIG-Game who was exposed to
+game-specific information for MegaMinerAI. SIG-Game maintains a
+list of people who have had access to this information. SIG-Game
+Developers are not eligible for any prizes.</li>
+  <li><strong>Student Team</strong>: A team comprised entirely of currently enrolled
+students. Each member may be either a full-time or a part-time
+student. Students may be enrolled at any accredited educational
+institution. MegaMinerAI is not limited to S&amp;T students.</li>
+  <li><strong>Non-student Team</strong>: A team containing at least one member who is
+<strong>not</strong> enrolled as a full-time student or a part-time student.</li>
+  <li><strong>SIG-Game Developer Team</strong>: A team containing at least one member
+who is a SIG-Game Developer. These teams are not eligible for <strong>any</strong>
+prizes. However, Developers work hard to test MegaMinerAI, and often
+want to test their own AIs in the arena.</li>
+</ul>
+
+<h2 id="venue">Venue</h2>
+
+<p>MegaMinerAI is hosted on Missouri S&amp;T’s campus in Rolla, Missouri.
+Several rooms in Toomey Hall are reserved for competition. These
+reserved rooms are considered the competition venue.</p>
+
+<h3 id="traveling-competitors">Traveling Competitors</h3>
+
+<p>Competitors who intend to travel to Rolla to participate in MegaMinerAI
+should notify SIG-Game as soon as possible. This will enable SIG-Game to
+request enough temporary accounts for competitors. Additionally, S&amp;T’s
+IT department requires personal contact information from visitors to
+enable network access for personal devices. If a visiting competitor
+fails to inform SIG-Game of their travel plans, that competitor may be
+unable to use S&amp;T’s network to obtain Internet access.</p>
+
+<h2 id="schedule-and-phases-of-competition">Schedule and Phases of Competition</h2>
+
+<p>All times are local (Central Time). Dinner on Saturday and breakfast
+on Sunday are provided to competing teams that have paid their
+registration fees. If lunch is provided on Sunday, that is also
+provided to those teams.</p>
+
+<ul>
+  <li>Saturday
+    <ul>
+      <li>12 noon - 12:30 - <strong>Opening Presentation</strong> <strong>Takes place in Butler Carlton Hall 125</strong></li>
+      <li>~3:30 PM - <strong>Competition begins</strong></li>
+      <li>~6:00 PM - Dinner</li>
+      <li>~9:00 PM - <strong>Quick Draw Tournament</strong></li>
+    </ul>
+  </li>
+  <li>Sunday
+    <ul>
+      <li>~8:00 AM - Breakfast</li>
+      <li>12 noon - Lunch</li>
+      <li>~ 12:30  <strong>Closing Ceremony</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="registration-fees">Registration Fees</h2>
+
+<ul>
+  <li>A registration fee of $24 per team will be collected at the end of
+the Opening Ceremony.
+    <ul>
+      <li>The registration fee is $24 per team regardless of team size.</li>
+      <li>Teams must pay their registration fees in cash.</li>
+    </ul>
+  </li>
+  <li>A team will receive a discount of $8 for each team member who is a
+dues-paying member of Missouri S&amp;T’s ACM chapter, a student with a 
+valid student ID from a non-MST university, or bearing a free entry code.
+    <ul>
+      <li>For example, a team with exactly two member fulfilling the above criteria will
+receive a $16 discount. Thus, that team’s registration fee
+will be $8.</li>
+      <li>Discount eligibility will be determined according to S&amp;T ACM’s
+official roster.</li>
+      <li>You <em>must</em> be a member of ACM at the time of competition to be
+eligible for a discount.</li>
+    </ul>
+  </li>
+  <li>Teams who do not pay the registration fee will be removed from the
+competition.
+    <ul>
+      <li>SIG-Game Developers will attempt to contact unpaid teams before
+removing them.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="teams">Teams</h2>
+
+<ul>
+  <li>Teams must have at least one member and may not exceed three
+members.</li>
+  <li>Teams must be formed on SIG-Game’s website prior to the start of the
+competition. All code submissions must be made through this site.</li>
+  <li>Competitors without teams (free agents) will have an opportunity to form
+teams at the beginning of MegaMinerAI. SIG-Game will attempt to help
+freeagents find teams to join.</li>
+  <li>Prize eligibility varies based on the status of team members. Please
+see the “Eligibility” section below.</li>
+</ul>
+
+<h2 id="prizes">Prizes</h2>
+
+<ul>
+  <li>Prizes are only awarded to eligible teams (see “Eligibility to win
+prizes”).</li>
+  <li>Prizes are awarded to <em>teams</em> not to individual members of a team.
+    <ul>
+      <li>It is the responsibility of a prize-winning team to decide how
+prizes should be divided among its members.</li>
+    </ul>
+  </li>
+  <li>Prizes from the Final Tournament are awarded as cash as follows:
+    <ul>
+      <li>First place: $500</li>
+      <li>Second place: $220</li>
+      <li>Third place: $120</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tournament">Tournament</h2>
+
+<h3 id="submitting-code">Submitting Code</h3>
+
+<ul>
+  <li>All code submissions must happen through SIG-Game’s website.</li>
+  <li>All code must execute on an Ubuntu 14.04 Linux machine using the
+following restrictions
+    <ul>
+      <li>Makefiles
+        <ul>
+          <li>A GNU Makefile must be at the <em>top level</em> of the team’s
+repository</li>
+          <li>The makefile must able to successfully build the team’s
+program</li>
+        </ul>
+      </li>
+      <li>run file
+        <ul>
+          <li>A Bash script named “run” must be at the <em>top level</em> of
+the team’s repository</li>
+          <li>Executing this script must start the team’s AI program</li>
+          <li>The script must allow for command line arguments to be
+passed to the compiled executable</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>If a submitted program is not fully built by <code>make</code> and
+executable with <code>run</code>, the AI may be ineligible for
+participation
+    <ul>
+      <li>For example, a team’s program may compile and run in Eclipse or
+Visual Studio, but if that program does not compile and run as
+described above, that AI will not be run in the final tournament</li>
+    </ul>
+  </li>
+  <li>Please note that the ShellAI provided to each competitor <strong><em>will
+successfully compile and run as described</em></strong>. No changes are necessary
+to compile ShellAI. In most cases, the <code>Makefile</code> and <code>run</code> do
+not require modification to work with other AIs as well.</li>
+  <li>Teams should ask SIG-Game Developers for help if necessary.</li>
+</ul>
+
+<h3 id="quick-draw-tournaments">Quick Draw Tournaments</h3>
+
+<ul>
+  <li>Purpose: An initial tournament on Saturday evening that identifies
+which team is currently in first place. A second Quick Draw
+Tournament may occur at 9:00 AM on Sunday</li>
+  <li>Prize: The first-place team will receive their registration fee
+back.
+    <ul>
+      <li>Eligibility is detailed in the “Eligibility” section</li>
+      <li>If a team wins more than one Quick Draw Tournament, they will
+only receive their entry fee for the first victory. In this case,
+the next highest ranked team is awarded the prize.</li>
+    </ul>
+  </li>
+  <li>Participation:
+    <ul>
+      <li>Student teams may participate</li>
+      <li>Non-student teams may participate</li>
+      <li>SIG-Game Developer teams <strong>may not</strong> participate</li>
+    </ul>
+  </li>
+  <li>Tournament Configuration
+    <ul>
+      <li>Single Elimination</li>
+      <li>Prize awarded to first place winner</li>
+      <li>Brackets seeded according to performance in the Arena</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="final-tournament">Final Tournament</h2>
+
+<ul>
+  <li>Purpose: The final tournament determines the top three student teams</li>
+  <li>Prize - Outlined in “Prizes” section.
+    <ul>
+      <li>Eligibility is detailed in the “Eligibility” section</li>
+    </ul>
+  </li>
+  <li>Participation:
+    <ul>
+      <li>Student teams may participate</li>
+      <li>Non-student teams <strong>may not</strong> participate</li>
+      <li>SIG-Game Developer teams <strong>may not</strong> participate</li>
+    </ul>
+  </li>
+  <li>Tournament Configuration
+    <ul>
+      <li>Triple Elimination</li>
+      <li>Prizes awarded to first, second, and third place winners</li>
+      <li>Brackets seeded according to performance in the Arena</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="global-tournament">Global Tournament</h3>
+
+<ul>
+  <li>Purpose: The final tournament determines the top three teams
+(student, non-student, and SIG-Game Developer teams)</li>
+  <li>Prize - No prizes are awarded</li>
+  <li>Participation:
+    <ul>
+      <li>Student teams may participate</li>
+      <li>Non-student teams may participate</li>
+      <li>SIG-Game Developer teams may participate</li>
+    </ul>
+  </li>
+  <li>Tournament Configuration
+    <ul>
+      <li>Triple Elimination</li>
+      <li>Brackets seeded according to performance in the Arena</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="eligibility">Eligibility</h2>
+
+<h3 id="eligibility-to-compete">Eligibility to compete</h3>
+
+<ul>
+  <li>All competitors are expected to be physically present at the
+competition venue.</li>
+  <li>Exceptions for remote competitors may be made at the discretion of
+SIG-Game. Opportunities for remote competition are strictly
+limited to:
+    <ul>
+      <li>SIG-Game Developer Alumni</li>
+      <li>ACM / MegaMinerAI Sponsors</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="eligibility-to-win-prizes">Eligibility to win prizes</h3>
+
+<ul>
+  <li>Competitors must participate at the competition venue to remain
+eligible for prizes.
+    <ul>
+      <li>Remote competitors are not eligible to win prizes.</li>
+      <li>If a prize-winning team is unable to attend the Closing
+Ceremony, they are still eligible to win prizes.</li>
+    </ul>
+  </li>
+  <li>If a team has one or more SIG-Game Developer member, that team will
+be ineligible to win <strong>any</strong> prizes at MegaMinerAI.</li>
+  <li>All team members <em>must</em> be full-time or part-time students to be
+eligible for prizes in the Final Tournament.
+    <ul>
+      <li>If a team has one or more non-student member, that team will be
+ineligible to win prizes in the Final Tournament.</li>
+    </ul>
+  </li>
+  <li>Any student or non-student team (that has zero SIG-Game Developer
+members) may win prizes during a Quick Draw tournament.
+    <ul>
+      <li>Non-student team members do not affect a team’s eligibility to win
+prizes during a Quick Draw tournament.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="receiving-help">Receiving Help</h2>
+
+<p>During the competition, Developers will be available to answer any
+questions that competitors may have. If you, as a competitor, have any
+questions, please ask them for help. All SIG-Game Developers can be
+easily identified, as they will be wearing the T-Shirt for the current
+MegaMinerAI.</p>
+
+<p>Teams may use online resources and publicly available, open source
+libraries to assist their AI. However, teams are not allowed to reuse
+personal code or libraries specifically designed for AI / MegaMinerAI
+development. All development must be done by members of that team
+during competition hours</p>
+
+<h2 id="cheating-and-dishonesty">Cheating and Dishonesty</h2>
+
+<p>If a team is suspected of cheating or sabotaging SIG-Game, MegaMinerAI,
+or another competing team, SIG-Game will revoke the eligibility of the
+saboteur’s entire team and remove that team from the competition. The
+final decision to remove a team from competition will be made by the
+Chair of SIG-Game.</p>
+
+<p>Please note that this does not include game strategies. For example, if
+an AI is written to perform well against one particular opponent,
+SIG-Game does not consider this sabotage. If, however, an AI was
+designed to exploit security vulnerabilities in SIG-Game’s
+infrastructure or an opponent’s code, SIG-Game would consider this
+actionable sabotage.</p>
+
+<h3 id="examples-of-acceptable-and-unacceptable-actions">Examples of acceptable and unacceptable actions:</h3>
+
+<p>Please note that these are examples. If you have questions about other
+actions, please contact SIG-Game.</p>
+
+<h4 id="acceptable">Acceptable:</h4>
+
+<ul>
+  <li>Analyzing other teams strategy from watching games</li>
+  <li>Asking another team about their strategy
+    <ul>
+      <li>If they volunteer that information, that’s their decision.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="unacceptable">Unacceptable:</h4>
+
+<ul>
+  <li>Exploiting security vulnerabilities
+    <ul>
+      <li>This includes (but is not limited to) network and memory
+exploits</li>
+    </ul>
+  </li>
+  <li>Excessive use of computing resources
+    <ul>
+      <li>Abusively consuming CPU, memory, disk space</li>
+    </ul>
+  </li>
+  <li>Stealing code from other teams</li>
+</ul>
+
+<h2 id="ip-terms-and-conditions">IP Terms and Conditions</h2>
+<p>At the beginning of the competition, all competitors are provided with base
+code, which they then modify and add to for the purposes of the competition.</p>
+
+<p>All modifications and additions to the base code made by competitors are
+intellectual property, ownership of which is retained by the competitors.</p>
+
+<p>By entering this competition, competitors agree to allow the use of their code
+by the organizers of the competition for the duration of the competition,
+exclusively for the purposes of competing the code against the work of other
+competitors in the manner described in these rules.</p>
+
+<p>Also, competitors agree by submitting code to this competition to allow the use
+of their code by the organizers of this competition during and after the
+competition, exclusively for the purposes of testing and refining infrastructure
+maintained by SIG-Game. Competitors’ code will not be used, in whole or in part,
+for any other purpose after the duration of the competition.</p>
+
+<h2 id="other-rules-and-policies">Other Rules and Policies</h2>
+
+<p>All other decisions not covered in this document will be made by the
+Chair of SIG-Game or their designee.</p>
+
+<h2 id="changes-to-this-document">Changes to this document</h2>
+
+<ul>
+  <li>Changes to this documented will be recorded and made available to
+competitors through <a href="https://github.com/siggame/siggame.github.io/commits/master/MegaMinerAI-Rules.md">GitHub</a>.</li>
+  <li>Though the history of this document is available, it is the
+responsibility of competitors and other participants to check for
+any and all changes.</li>
+</ul>
+
+<h2 id="questions-and-clarification">Questions and Clarification</h2>
+
+<p>If you have questions about MegaMinerAI or need clarifications about its
+rules, please email <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#105;&#103;&#103;&#097;&#109;&#101;&#064;&#109;&#115;&#116;&#046;&#101;&#100;&#117;">&#115;&#105;&#103;&#103;&#097;&#109;&#101;&#064;&#109;&#115;&#116;&#046;&#101;&#100;&#117;</a>.</p>
+
+    </div>
+  </div>
+</div>
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-muted">
+              Brought to you by Missouri S&amp;T ACM SIG-Game.
+              | Fork us on <a target="_blank" href="https://github.com/siggame">GitHub</a>!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/blog/static/js/page_setup.js" type="text/javascript"></script>
+
+  </body>
+</html>

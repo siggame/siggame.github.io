@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Missouri S&T ACM SIG-Game Blog</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Links and style -->
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cosmo/bootstrap.min.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/blog/static/css/sticky-footer.css" rel="stylesheet"/>
+    <link href="/blog/static/css/pygment_emacs.css" rel="stylesheet"/>
+    <link href="/blog/static/css/style.css" rel="stylesheet"/>
+    <link href="/blog/static/css/form-fix.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/blog/static/img/favicon.ico?v=2" />
+
+    <!-- jQuery needs to be made available earlier than the other scripts -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-54373140-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" title="SIG-Game" class="navbar-brand" rel="home">
+        <img src="/blog/static/img/brand.svg" alt="SIG-Game" class="img-responsive" />
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="/blog/">Blog</a>
+        </li>
+
+        <li class=" dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            About Us <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/blog/about/">About Us</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="/blog/about/#Brief-History">Brief History</a>
+            </li>
+            <li>
+              <a href="/blog/about/#What-We-Do">What We Do</a>
+            </li>
+            <li>
+              <a href="/blog/about/#Projects">Projects</a>
+            </li>
+            <li>
+              <a href="/blog/about/#Contact-Us">Contact Us</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class=" dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            MegaMinerAI <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="/blog/about/#What-We-Do">About MegaMinerAI</a>
+            </li>
+            <li>
+              <a href="/blog/MegaMinerAI-Rules">Competition Rules</a>
+            </li>
+            <li>
+              <a href="http://docs.megaminerai.com/">Documentation</a>
+            </li>
+            <li>
+              <a href="/blog/ssh-fingerprint">Our SSH Fingerprint</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="">
+          <a href="/blog/sponsors">Our Sponsors</a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="https://megaminerai.com" class="btn-success">Go to MegaMinerAI.com <i class="fa fa-arrow-circle-right"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container">
+  <div class="row">
+    <div id="content" class="col-md-9">
+      <div class="page-header">
+  <h1>SIG-Game Blog</h1>
+</div>
+
+
+  <h1>
+    <a href="/2013/04/17/Arena-Mishmash/">Arena Mishmash</a>
+    <small>17 Apr 2013</small>
+  </h1>
+  <div>
+    <p>Today I’ll talk about a mishmash of small topics. Arena related, all.</p>
+
+<h3 id="smarter-arena-scheduler">Smarter Arena Scheduler</h3>
+<p>Yesterday’s news, literally. It’s running. Feedback appreciated, as always.
+As is normal, I’m getting the majority of my feedback from former devs, who
+have their own biases. I don’t get enough feedback from The Typical User.</p>
+
+<h3 id="push-to-git-during-tournaments">Push to Git During Tournaments</h3>
+<p>Our current procedure disallows alterations of the competitor git repositories
+during tournament runs. This can be a problem for competitors who are actually
+using their repo as a version control repo, and not just as some crazy submit
+system that the devs seem to be excited about. After a careful examination of
+our tournament startup procedure, I’m sorry to report that we still need
+to lock you out of your repos. For about 90 seconds. Right at tournament
+startup. After that we can immediately let you back in. I have updated our
+procedure for tournament startup to reflect the shorter lockout time.</p>
+
+<h3 id="game-injection">Game Injection</h3>
+<p>This comes up once in a while. Competitor A wants to play a game against
+Competitor B. He would like to go to somewhere on the website and select
+Competitor B from some sort of dropdown list and have a game run immediately.
+Of course some sort of mechanism would need to be in place to keep people
+from abusing such a feature.</p>
+
+<p>This already exists. The antiabuse mechanism is that only arena devs have
+the necessary login info get to the page with the dropdowns. You want a game
+run? Ask an arena dev. We got your back. If you ask too often I’ll make you
+do pushups.</p>
+
+<h3 id="chess-arena-falls-apart-during-megaminer">Chess Arena Falls Apart During MegaMiner</h3>
+<p>Yeah, sorry about that. Our manpower pool is limited. When MegaMiner is
+running, it’s the priority. A Bad Thing happened the day before MegaMiner,
+and we had to scramble like crazy to ensure MegaMiner happened at all. In the
+confusion we didn’t get certain backend doodads restarted. Woops!</p>
+
+<h3 id="final-4-of-global-division">Final 4 of Global Division</h3>
+<p>Someone suggested that immediately after the final sequence of the triple
+elim for the Student Division, we could show the Final 4 of the Global
+Division. I like it. We’ll look into it.</p>
+
+<h3 id="visualizer-arena-autolink">Visualizer Arena Autolink</h3>
+<p>There was a visualizer feature request that went something like this: I have
+this visualizer window open in front of me, on my computer. When I’m not
+actively debugging a specific game, it’d be neat if my visualizer could
+show the games that the arena played for me.</p>
+
+<p>The first technical challege for that is on the visualizer. If the visualizer
+hits the beanstalk looking for a gamelog URL, and the beanstalk doesn’t have
+one ready to go immediately, the visualizer hangs and crashes. Anyone want to
+fix that? Please? It’s really annoying.</p>
+
+<p>The second technical challenge is ensuring that nobody else can access your
+stream. The website already has a low-security password for you, used to
+access your git repo. Perhaps we can use that. Anyone want to join the dev
+team and implement this?</p>
+
+<p>That’s it for today. Tomorrow I’ll talk about tournament structure, and why
+we do a triple-elim (hint: you asked for it).</p>
+
+    <i>Posted by:</i> <b>Nuckolls</b>
+  </div>
+  
+    <hr>
+  
+
+  <h1>
+    <a href="/2013/04/15/Reef-Winners/">Reef Winners!</a>
+    <small>15 Apr 2013</small>
+  </h1>
+  <div>
+    <p>After running a zillion games, we’re happy to announce the winners of
+Reef!</p>
+
+<ul>
+  <li>1st Place: Men of War</li>
+  <li>2nd Place: Balls Deep</li>
+  <li>3rd Place: Unbendable Steel Clouds</li>
+</ul>
+
+<p>Hope everyone enjoyed the game and competition, we hope to see you
+back in Fall for MegaMinerAI 12.</p>
+
+<p>Also, we’ll be sending out a sheet for competitor feedback, please
+fill it out as best you can.</p>
+
+<p>Thank you everyone, couldn’t do it without you!</p>
+
+    <i>Posted by:</i> <b>Kellogg</b>
+  </div>
+  
+    <hr>
+  
+
+  <h1>
+    <a href="/2013/04/13/Welcome/">Welcome</a>
+    <small>13 Apr 2013</small>
+  </h1>
+  <div>
+    <p>Hey all,</p>
+
+<p>We’re having orientation at 12pm in Toomey 199, this is our chance to
+unveil the game. This is also your chance to ask any and all questions
+you have.</p>
+
+<p>Sea you all there!</p>
+
+    <i>Posted by:</i> <b>Kellogg</b>
+  </div>
+  
+    <hr>
+  
+
+  <h1>
+    <a href="/2013/04/12/MegaMinerAI-11-Reef-Tomorrow/">MegaMinerAI 11: Reef Tomorrow!</a>
+    <small>12 Apr 2013</small>
+  </h1>
+  <div>
+    <p>Hope you all are ready, Reef is less than 24 hours away!</p>
+
+<p>Form your teams, tell your friends, and get plenty of sleep
+tonight. Tomorrow we go to war!</p>
+
+    <i>Posted by:</i> <b>Kellogg</b>
+  </div>
+  
+    <hr>
+  
+
+  <h1>
+    <a href="/2013/03/18/MegaMiner-11-Announced/">MegaMinerAI 11 Anounced</a>
+    <small>18 Mar 2013</small>
+  </h1>
+  <div>
+    <p>We at SIG-Game are proud to officially announce our next game:
+Reef. The competition will start April 13th at 12 PM in room 199 of
+Toomey Hall and will continue until 12 PM on April 14th.</p>
+
+<p>Tell your friends! <a href="http://megaminerai.com/accounts/login/">Sign in</a>
+on our brand new website,
+<a href="http://megaminerai.com/competition/megaminerai-11-reef/">register</a>,
+and build your team! The cost is $24 per team, but all Missouri S&amp;T
+ACM members will get $5 off (per member per team).</p>
+
+<p>Get your scuba gear ready, because we’re taking the competition
+underwater in MegaMinerAI 11: Reef!</p>
+
+    <i>Posted by:</i> <b>Wisely</b>
+  </div>
+  
+
+
+<div class="text-center">
+  <ul class="pagination">
+    
+      <li><a href="/page/5">&laquo;</a></li>
+    
+
+    
+      
+        
+          <li><a href="/blog/">1</a></li>
+        
+      
+
+    
+      
+        
+          <li><a href="/blog/page/2">2</a></li>
+        
+      
+
+    
+      
+        
+          <li><a href="/blog/page/3">3</a></li>
+        
+      
+
+    
+      
+        
+          <li><a href="/blog/page/4">4</a></li>
+        
+      
+
+    
+      
+        
+          <li><a href="/blog/page/5">5</a></li>
+        
+      
+
+    
+      
+        <li class="active"><a href="#">6</a></li>
+      
+
+    
+      
+        
+          <li><a href="/blog/page/7">7</a></li>
+        
+      
+
+    
+
+    
+      <li><a href="/page/7">&raquo;</a></li>
+    
+  </ul>
+</div>
+
+
+    </div>
+
+    <div id="sidebar" class="col-md-3 hidden-xs hidden-sm">
+  <div data-spy="affix" data-offset-top="45" style="top:0px">
+    <h2>Recent Posts</h2>
+    <ul class="nav nav-pills nav-stacked post-list">
+      
+      <li class="">
+        <a href="/blog/2016/10/10/MMAI18-Signups-open/">MMAI18 Game Announcement and Signups</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2016/09/12/MMAI18-Announcement/">MMAI18 Announcement</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2016/04/30/MegaMinerAI-17-Winners/">MegaMinerAI 17: Spiders Winners</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2016/04/22/Bring-Your-Laptop-Yous/">Bring Your Laptop!</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2016/04/11/Chess-Deadlines/">Chess Deadlines</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2016/03/03/MegaMinerAi-17-Date-Correction/">MegaMinerAI 17 Date Adjusted</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2016/02/18/Hang-Tight/">Changing Dates for MegaMinerAI 17</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2016/01/20/MegaMinerAI-17/">MegaMinerAI 17: ???</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2015/11/09/Anarchy/">MegaMiner AI 16</a>
+      </li>
+      
+      <li class="">
+        <a href="/blog/2015/10/06/Pharoah-Winner/">Pharoah Winners</a>
+      </li>
+      
+      <li class="text-muted">
+        <a href="/blog/posts/">All posts <i class="fa fa-plus-circle pull-right" style="margin-top:3px;"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-muted">
+              Brought to you by Missouri S&amp;T ACM SIG-Game.
+              | Fork us on <a target="_blank" href="https://github.com/siggame">GitHub</a>!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/blog/static/js/page_setup.js" type="text/javascript"></script>
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<div id="sidebar" class="col-md-3 hidden-xs hidden-sm">
+  <div data-spy="affix" data-offset-top="45" style="top:0px">
+    <h2>Recent Posts</h2>
+    <ul class="nav nav-pills nav-stacked post-list">
+      {% for post in site.posts limit:10 %}
+      <li class="{% if post.id == page.id %}active{% endif %}">
+        <a href="{{ site.root_url_alt}}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+      <li class="text-muted">
+        <a href="{{ site.root_url}}posts/">All posts <i class="fa fa-plus-circle pull-right" style="margin-top:3px;"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
