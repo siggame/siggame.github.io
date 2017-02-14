@@ -1,18 +1,10 @@
 permalink: pretty
 
-excerpt_separator: "<!--end excerpt-->"
-paginate: 5
-paginate_path: "/page/:num"
-
 safe: true
 lsi: false
 highlighter: rouge
 markdown: kramdown
 
-root_url: /
-root_url_alt: /
 static_url: /static/
 production_url : "http://siggame.io"
 
-gems:
-  - jekyll-paginate
