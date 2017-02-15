@@ -1,0 +1,19 @@
+/*===== NAVBAR DESIGN =====*/
+.navbar-default {
+  background-color: #333;
+  border: none; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.btn-success {
+  background-color: #333; }
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+
+  .navbar .navbar-collapse {
+    text-align: center; } }
