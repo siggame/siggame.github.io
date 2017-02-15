@@ -1,0 +1,11 @@
+.navbar { margin-bottom: 0px; }
+.navbar img { width: 89; height: 19; }
+
+.container { max-width: 1170px; }
+.container img { width: 100%; }
+
+.post-list { border-left: 1px #ddd solid; }
+
+.nav-pills li:hover { border-left: 2px #f93 solid; }
+
+.navbar-nav li a { line-height: 28px; }
