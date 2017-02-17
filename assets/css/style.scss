@@ -1,10 +1,23 @@
 ---
 ---
+  /*===== GLOBAL DESIGN =====*/
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
 /*===== NAVBAR DESIGN =====*/
 .navbar-default
 {
 	background-color: #333;
 	border: none;
+}
+.navbar {
+  margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -41,3 +54,33 @@
 }
 
 /*===== JUMBOTRON DESIGN =====*/
+
+
+
+
+/*===== INFORMATIONAL DESIGN =====*/
+
+.thumbnail {
+  border: none;
+}
+
+/*===== RECENT BLOG DESIGN =====*/
+
+div.row.recentblog {
+  background-color: #e6e6e6;
+}
+
+.latestcont {
+  margin-top: 21px;
+  border-right: solid;
+}
+ul.latestblog {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 200px;
+  max-height: 200px;
+  float: left;
+}

@@ -135,16 +135,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-  jekyll (= 3.3.0)
-  jekyll-feed (~> 0.6)
-  minima (~> 2.0)
-
-RUBY VERSION
-   ruby 2.0.0p648
-=======
   github-pages
->>>>>>> 9bfa0243d96f5d40ac090bf6249f9eb62e94f9ce
 
 BUNDLED WITH
-   1.14.3
+   1.14.4
