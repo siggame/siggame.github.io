@@ -1,0 +1,29 @@
+
+<div class="text-center">
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path }}">&laquo;</a></li>
+    {% else %}
+      <li class="disabled"><a href="#">&laquo;</a></li>
+    {% endif %}
+
+    {% for i in (1..paginator.total_pages) %}
+      {% if i == paginator.page %}
+        <li class="active"><a href="#">{{ i }}</a></li>
+      {% else %}
+        {% if i == 1 %}
+          <li><a href="/blog/">{{ i }}</a></li>
+        {% else %}
+          <li><a href="/blog/page/{{ i }}">{{ i }}</a></li>
+        {% endif %}
+      {% endif %}
+
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path }}">&raquo;</a></li>
+    {% else %}
+      <li class="disabled"><a href="#">&raquo;</a></li>
+    {% endif %}
+  </ul>
+</div>

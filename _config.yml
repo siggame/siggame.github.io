@@ -7,4 +7,3 @@ markdown: kramdown
 
 static_url: /static/
 production_url : "http://siggame.io"
-
