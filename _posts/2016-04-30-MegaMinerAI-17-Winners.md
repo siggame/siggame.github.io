@@ -5,6 +5,7 @@ author: "Jon Simington"
 ---
 
 Sorry for the delay, but here is the official announcement of the winners for MegaMinerAI 17: Spiders!
+<!--more-->
 
 ## Student Tournament:
 
