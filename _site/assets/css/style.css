@@ -24,6 +24,8 @@ a:hover { text-decoration: none; color: #333333; }
 /*===== INFORMATIONAL DESIGN =====*/
 .thumbnail { border: none; }
 
+.row { padding-right: 10px; padding-left: 10px; }
+
 /*===== RECENT BLOG DESIGN =====*/
 div.row.recentblog { background-color: #e6e6e6; }
 
