@@ -1,10 +1,23 @@
 ---
 ---
+  /*===== GLOBAL DESIGN =====*/
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
 /*===== NAVBAR DESIGN =====*/
-.navbar-default 
+.navbar-default
 {
 	background-color: #333;
 	border: none;
+}
+.navbar {
+  margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -13,6 +26,19 @@
 
 .btn-success {
 	background-color: #333;
+}
+
+.dropdown-menu {
+    background-color: #333;
+		color: rgb(255, 255, 255);
+}
+
+.dropdown-menu>li>a {
+	color: rgb(255, 255, 255);
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+		background-color: rgba(255, 255, 255, 0.1);
 }
 
 @media (min-width: 768px) {
@@ -25,4 +51,45 @@
     .navbar .navbar-collapse {
         text-align: center;
     }
+}
+
+/*===== JUMBOTRON DESIGN =====*/
+
+
+
+
+/*===== INFORMATIONAL DESIGN =====*/
+
+.thumbnail {
+  border: none;
+}
+
+.row {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*===== RECENT BLOG DESIGN =====*/
+
+div.row.recentblog {
+  background-color: #e6e6e6;
+}
+
+.latestcont {
+  margin-top: 21px;
+  border-right: solid;
+}
+ul.latestblog {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 200px;
+  max-height: 200px;
+  float: left;
+}
+
+.title {
+  padding-bottom: 5px;
 }
