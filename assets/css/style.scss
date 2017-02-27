@@ -55,7 +55,13 @@ a:hover {
 
 /*===== JUMBOTRON DESIGN =====*/
 
-
+.jumbotron {
+  background-image: url("{{ site.static_url }}imgs/DSC_0016.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+}
 
 
 /*===== INFORMATIONAL DESIGN =====*/
