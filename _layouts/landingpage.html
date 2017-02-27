@@ -71,23 +71,6 @@
 <!-- If we use the above Blog Post layout, this block of code will be useless. -->
 <!-- TODO: Replace with an actual footer w/ GitHub info, etc. -->
 
-<div class="row recentblog">
-  {% for post in site.posts limit:1 %}
-  <div class="col-sm-6 col-md-8">
-  <a href="{{ base }}{{ post.url }}">{{ post.content }}</a>
-  {% endfor %}
-  </div>
-  <div class="col-sm-6 col-md-4 latestcont">
-      {% for post in site.posts limit:10 %}
-      <ul class="latestblog">
-      <li><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></li>
-      </ul>
-      {% endfor %}
-  </div>
-</div>
-
-
-
 
 
 
@@ -104,3 +87,4 @@
 
 </body>
 </html>
+
