@@ -3,17 +3,14 @@ layout: about
 title: About Us
 navbar: about
 ---
-
-<div class="jumbotron">
-  <h1>Hello, SIG-Game</h1>
-  <p>
-    SIG-Game is a special interest group for Missouri S&amp;T
-    students that develops and hosts artificial intelligence
-    programming competitions on S&amp;T's campus in Rolla,
-    Missouri.
-  </p>
-</div>
-
+  <div class="jumbotron">
+  <div class="container">
+    <h1>Sig-Game</h1>
+    <p>SIG-Game is a special interest group for Missouri S&T students that develops and hosts artificial intelligence
+        programming competitions on S&T's campus in Rolla, Missouri.</p>
+  </div>
+  </div>
+  
 A Brief History of SIG-Game  {#Brief-History}
 ===========================
 
