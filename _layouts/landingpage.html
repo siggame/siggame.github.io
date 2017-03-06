@@ -49,7 +49,7 @@
 </div>
 
   <!--Three column informational-->
-  <div class="container-fluid">
+  <div class="container-fluid info_header">
       <div class="row">
           <h1 class="text-center">Recent Posts</h1>
       </div>
@@ -68,16 +68,16 @@
       </div>
       {% endfor %}
   </div>
+  
   <!--Sponsors Section-->
-  <div class="container-fluid">
+  <div class="container-fluid sponsors_header">
       <div class="row">
           <h1 class="text-center">Our Sponsors</h1>
       </div>
   </div>
-  <!-- TODO: Fix the image sizes so they are not so large -->
   {% for sponsor in site.data.sponsors %}
   {% assign count = forloop.index0 | modulo:3 %}
-  {% if count == 0 %}<div class="row">{% endif %}
+  {% if count == 0 %}<div class="row sponsors_list">{% endif %}
       <div class="col-xs-12 col-sm-4">
           <a href="/sponsors/#{{ sponsor.id }}" class="thumbnail">
               <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}"
