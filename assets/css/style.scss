@@ -56,33 +56,26 @@ a:hover {
 /*===== JUMBOTRON DESIGN =====*/
 
 .jumbotron {
-  background-image: url("{{ site.static_url }}imgs/DSC_0016.JPG");
+  background-image: url("{{ site.static_url }}imgs/DSC_0014.JPG");
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 350px;
+  height: 100vh;
   margin-bottom: 0%;
 }
 
-
-/*===== INFORMATIONAL DESIGN =====*/
-
-.thumbnail {
-  border: none;
+.jumbo_text {
+  text-align: center;
+  top: 50%;
 }
+/*===== Scroll =====*/
 
-.row {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.info_header {
-  background-color: red;
-}
 
 /*===== RECENT BLOG DESIGN =====*/
 
-div.row.recentblog {
-  background-color: #e6e6e6;
+.blog_header {
+  //Changing design for the recent blog posts header
 }
 
 .latestcont {
@@ -95,21 +88,24 @@ ul.latestblog {
 
 img {
   vertical-align: top;
-  max-width: 200px;
-  max-height: 200px;
+  height: 10em;
   float: left;
+  padding-right: 20px;
 }
 
 .title {
   padding-bottom: 5px;
 }
-
 /*===== SPONSORS =====*/
 .sponsors_header {
-  background-color: red;
+  //Changing header style for the sponsor section
 }
 
 .sponsors_list {
   margin-right: 15%;
   margin-left: 15%;
+}
+
+.sponsors_thumbnail {
+  border: none;
 }

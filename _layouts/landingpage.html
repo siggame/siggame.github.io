@@ -48,27 +48,23 @@
   </div>
 </div>
 
-  <!--Three column informational-->
-  <div class="container-fluid info_header">
+  <!--Recent Blog Posts-->
+  <div class="container-fluid sponsors_header">
       <div class="row">
-          <h1 class="text-center">Recent Posts</h1>
+          <h1 class="text-center">Latest Post</h1>
       </div>
   </div>
-  <div class="row informational">
-      {% for post in site.posts limit:3 %}
-      <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-              <div class="title">
-                  <h3><strong><a href="{{ base }}{{ post.url }}">{{ post.title }}</a></strong></h3>
-              </div>
-              <div class="post">
-                {{ post.excerpt }}
-              </div>
-          </div>
+  <div class="container">
+  <div class="row recentblog">
+      {% for post in site.posts limit:1 %}
+      <div class="col-sm-6 col-md-12">
+          <h3 class="text-center">{{ post.title }}</h3>
+          <a href="{{ base }}{{ post.url }}">{{ post.content }}</a>
+          {% endfor %}
       </div>
-      {% endfor %}
   </div>
-  
+  </div>
+
   <!--Sponsors Section-->
   <div class="container-fluid sponsors_header">
       <div class="row">
@@ -79,7 +75,7 @@
   {% assign count = forloop.index0 | modulo:3 %}
   {% if count == 0 %}<div class="row sponsors_list">{% endif %}
       <div class="col-xs-12 col-sm-4">
-          <a href="/sponsors/#{{ sponsor.id }}" class="thumbnail">
+          <a href="/sponsors/#{{ sponsor.id }}" class="thumbnail sponsors_thumbnail">
               <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}"
                    src="{{ site.static_url }}imgs/sponsor_logos/{{ sponsor.image }}">
           </a>
