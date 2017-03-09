@@ -90,7 +90,7 @@ img {
   vertical-align: top;
   height: 10em;
   float: left;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .title {
@@ -108,4 +108,28 @@ img {
 
 .sponsors_thumbnail {
   border: none;
+}
+
+
+/*===== FOOTER =====*/
+.footer {
+  background: #222222 none repeat scroll 0 0;
+  border-top: 4px solid #333333;
+  margin: 0;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footer_heads {
+  color: #fff;
+}
+
+.footer_dv ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_dv > ul > li > a {
+  color: #fff;
 }
