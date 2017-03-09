@@ -1,3 +1,6 @@
+paginate: 5
+paginate_path: "/blog/page/:num/"
+
 permalink: pretty
 
 safe: true
@@ -9,3 +12,7 @@ static_url: /static/
 production_url : "http://siggame.io"
 
 excerpt_seperator: <!--more-->
+
+gems:
+  - jekyll-paginate
+
