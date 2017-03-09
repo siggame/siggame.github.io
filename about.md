@@ -26,7 +26,7 @@ language interoperability, meta programming, parallel computing,
 procedural generation, testing, visualization, and more.
 
 <div class="text-center">
-  <img src="{{ site.static_url }}imgs/wrench.png" style="width:75px;">
+  <img src="{{ site.static_url }}img/wrench.png" style="width:75px;">
 </div>
 
 What We Do  {#What-We-Do}
