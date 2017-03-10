@@ -15,6 +15,11 @@
     <link href="{{ base }}/assets/css/style.css" rel="stylesheet"/>
     <link href="{{ site.static_url }}css/form-fix.css" rel="stylesheet">
     <link href="{{ base }}/assets/css/footer.css" rel="stylesheet"/>
+    {% if page.title == "About Us" %}
+    <!--<link href="{{ base }}/assets/css/recentpost.css" rel="stylesheet"/>-->
+    {% else %}
+    <link href="{{ base }}/assets/css/recentpost.css" rel="stylesheet"/>
+    {% endif %}
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.static_url }}img/favicon.ico?v=2" />
