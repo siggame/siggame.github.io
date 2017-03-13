@@ -8,7 +8,7 @@
           <span class="icon-bar"></span>
         </button>
       <a href="/" title="SIG-Game" class="navbar-brand" rel="home">
-        <img src="{{ site.static_url }}imgs/brand.svg" alt="SIG-Game" class="img-responsive" />
+        <img src="{{ site.static_url }}img/brand.svg" alt="SIG-Game" class="img-responsive" />
       </a>
     </div>
 
@@ -16,26 +16,24 @@
 
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav">
-          <li class="{% if page.navbar == "blog" %}active{% endif %}"><a href="{{ site.root_url }}">Home</a></li>
-
           <li class="{% if page.navbar == "about" %}active{% endif %} dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li>
-                <a href="{{ site.root_url }}about/">About Us</a>
+                <a href="/about">About Us</a>
               </li>
               <li class="divider"></li>
               <li>
-                <a href="{{ site.root_url }}about/#Brief-History">Brief History</a>
+                <a href="/about/#Brief-History">Brief History</a>
               </li>
               <li>
-                <a href="{{ site.root_url }}about/#What-We-Do">What We Do</a>
+                <a href="/about/#What-We-Do">What We Do</a>
               </li>
               <li>
-                <a href="{{ site.root_url }}about/#Projects">Projects</a>
+                <a href="/about/#Projects">Projects</a>
               </li>
               <li>
-                <a href="{{ site.root_url }}about/#Contact-Us">Contact Us</a>
+                <a href="/about/#Contact-Us">Contact Us</a>
               </li>
             </ul>
           </li>
@@ -44,21 +42,23 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">MegaMinerAI<span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li>
-                <a href="{{ site.root_url }}about/#What-We-Do">About MegaMinerAI</a>
+                <a href="/about/#What-We-Do">About MegaMinerAI</a>
               </li>
               <li>
-                <a href="{{ site.root_url }}MegaMinerAI-Rules">Competition Rules</a>
+                <a href="/MegaMinerAI-Rules">Competition Rules</a>
               </li>
               <li>
-                <a href="http://docs.megaminerai.com/">Documentation</a>
+                <a href="http://docs.siggame.io">Go to Documentation</a>
               </li>
               <li>
-                <a href="{{ site.root_url }}ssh-fingerprint">Our SSH Fingerprint</a>
+                <a href="/ssh-fingerprint">Our SSH Fingerprint</a>
               </li>
             </ul>
           </li>
 
-          <li class="{% if page.navbar == "sponsors" %}active{% endif %}"><a href="{{ site.root_url }}sponsors">Our Sponsors</a></li>
+          <li class="{% if page.navbar == "sponsors" %}active{% endif %}"><a href="/sponsors">Our Sponsors</a></li>
+
+		  <li class="{% if page.navbar == "blog" %}active{% endif %}"><a href="/blog">Blog</a></li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
