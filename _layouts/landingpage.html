@@ -26,7 +26,7 @@
           </div>
       </div>
       {% for post in site.posts limit:1 %}
-      <div class="col-sm-6 col-md-12">
+      <div class="col-md-12">
           <h3 class="">{{ post.title }}</h3>
           <a href="{{ base }}{{ post.url }}">{{ post.content }}</a>
           {% endfor %}
@@ -35,7 +35,7 @@
   </div>
 
   <!--Who Are We Section-->
-  <div class="aboutsection">
+  <div class="aboutsection container">
       <div class="container-fluid">
           <div class="row">
               <h1>What is MegaMinerAI?</h1>
@@ -60,7 +60,7 @@
   </div>
 
   <!--Sponsors Section-->
-  <div class="sponsorcontainer">
+  <div class="sponsorcontainer container">
     <div class="container-fluid sponsors_header">
         <div class="row">
             <h1 class="">Our Sponsors</h1>
@@ -69,8 +69,7 @@
       <div class="sponsorspot">
       {% for sponsor in site.data.sponsors %}
       {% assign count = forloop.index0 | modulo:3 %}
-      <!--{% if count == 0 %}<div class="row sponsors_list">{% endif %}-->
-          <div class="sponsor">
+          <div class="sponsor col-md-4 col-sm-6 col-xs-12">
               <a href="/sponsors/#{{ sponsor.id }}" class="thumbnail sponsors_thumbnail">
                   <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}"
                        src="{{ site.static_url }}img/sponsor_logos/{{ sponsor.image }}">

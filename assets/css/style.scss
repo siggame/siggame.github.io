@@ -109,7 +109,29 @@ a:hover {
   filter: invert(100%);
   -webkit-filter: invert(100%);
   margin-bottom: 10px;
-  height: 130px;
+  max-height: 130px;
+  min-width: 200px;
+}
+@media only screen and (max-width:674px)
+{
+  .namespace img {
+    width: 100%;
+    height:auto;
+  }
+  
+  .jumbotron .container {
+    width: 100%;
+  }
+  
+  .jumbotron p {
+    font-size: 20px !important;
+    font-weight: bold;
+  }
+  .aboutmegaminerai .card {
+    min-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
 }
 
 /*===== Scroll =====*/
@@ -233,7 +255,7 @@ img {
   // margin-right:8%;
   width:auto !important;
 }
-.sponsor:nth-of-type(2),.sponsor:nth-of-type(5) {
+.marginswide {
   margin:0 11%;
 }
 .sponsor a {
@@ -276,3 +298,4 @@ img {
 .footer_dv > ul > li > a {
   color: #fff;
 }
+
