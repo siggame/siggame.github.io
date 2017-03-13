@@ -11,6 +11,8 @@ markdown: kramdown
 static_url: /static/
 production_url : "http://siggame.io"
 
+assets_url: /assets/
+
 excerpt_seperator: <!--more-->
 
 gems:
