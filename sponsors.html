@@ -21,7 +21,7 @@ navbar: sponsors
 {% for sponsor in site.data.sponsors %}
 {% assign count = forloop.index0 | modulo:3 %}
 {% if count == 0 %}<div class="row">{% endif %}
-  <div class="col-xs-12 col-sm-4">
+  <div class="col-xs-12 col-sm-4 sponsor">
     <a href="#{{ sponsor.id }}" class="thumbnail sponsors_thumbnail">
       <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}"
            src="{{ site.static_url }}img/sponsor_logos/{{ sponsor.image }}">
