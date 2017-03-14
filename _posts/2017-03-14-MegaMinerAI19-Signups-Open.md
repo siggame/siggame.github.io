@@ -3,9 +3,7 @@ layout: post
 title: "MMAI-19: STUMPED is open for registration!"
 author: "Cody Roberts"
 ---
-# MegaMinerAI 19: Stumped #
-
-![Stumped](https://github.com/siggame/siggame.github.io/blob/master/static/img/Stumped_transparency.png)
+![Stumped](/static/img/content/Stumped.png)
 
 The sign-ups for MegaMinerAI 19: Stumped are open! 
 
