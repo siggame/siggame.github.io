@@ -1,0 +1,148 @@
+- id: tradebot
+  name: Tradebot Systems
+  url: http://tradebotsystems.com
+  image: tradebot_logo.png
+  description: |
+
+    <p class="lead">Beating Wall Street from Kansas City</p>
+    <ul>
+      <li>
+        Tradebot Systems is a broker-dealer that trades
+        stock for its own account.  Some days, we account
+        for 5% to 10% of all stock trading in America.  We
+        trade our own money and do not have customers.
+      </li>
+      <li>
+        High Frequency Trading (HFT) is one of the most
+        technically demanding applications.  We are always
+        upgrading to the latest hardware.  Our stock
+        trading system is one of the best in the world.
+        When market data changes, our system can react and
+        make new orders in nanoseconds.  Our decisions are
+        based on analyzing huge data sets to determine when
+        we have a statistical edge.
+      </li>
+      <li>
+        Tradebot is privately owned by Dave Cummings.  We
+        started in 1999.  We have around 60 associates and
+        they all work out of our headquarters in Kansas
+        City.
+      </li>
+    </ul>
+
+- id: garmin
+  name: Garmin
+  url: http://www.garmin.com
+  image: garmin_logo_pms285_rgb.jpg
+  description: |
+
+    <p class="lead">Our Mission</p>
+    <p>
+      To be an enduring company by creating superior
+      products for automotive, aviation, marine, outdoor,
+      and sports that are an essential part of our
+      customers’ lives.
+    </p>
+
+    <p class="lead">Our Vision</p>
+    <p>
+      We will be the global leader in every market we
+      serve, and our products will be sought after for
+      their compelling design, superior quality, and best
+      value.
+    </p>
+
+    <p class="lead">Our Values</p>
+    <p>
+      The foundation of our culture is honesty, integrity,
+      and respect for associates, customers, and business
+      partners. Each associate is fully committed to
+      serving customers and fellow associates through
+      outstanding performance and accomplishing what we say
+      we will do.
+    </p>
+
+- id: bats
+  name: BATS
+  url: http://batstrading.com
+  image: BATS_logo.png
+  description: |
+
+    <p class="lead">About the BATS Exchanges</p>
+
+    <p>
+      BATS operates two stock exchanges in the U.S., the
+      BZX Exchange and the BYX Exchange (The BATS
+      Exchanges), which currently account for about 12-13%
+      of all U.S. equity trading on a daily basis. Driven
+      by its mission of "Making Markets Better," BATS has
+      become synonymous with great technology, aggressive
+      pricing and outstanding customer service while
+      catering to the needs of the broker-dealer and
+      trading community.
+    </p>
+
+    <p>
+      The BATS Exchanges are a division of BATS Global
+      Markets, a leading operator of stock and options
+      markets in the U.S. and Europe. For more information
+      about BATS Global Markets, please visit www.bats.com.
+    </p>
+
+- id: att
+  name: AT&T
+  url: http://att.com
+  image: att_logo.png
+  description: |
+
+    <p class="lead">About AT&T</p>
+
+    <p>
+      At AT&T, we’re bringing it all together. We deliver advanced mobile services, next-generation TV, high-speed Internet and smart solutions for people and businesses. That’s why we stand alone as a fully integrated solution provider.
+
+      Fast, highly secure and mobile connectivity – to everything on the Internet, everywhere, at every moment and on every device – is what drives us. It’s reflected in our mission:
+
+      Connect people with their world, everywhere they live, work and play … and do it better than anyone else.
+
+      So our customers can stay connected from nearly anywhere. It doesn’t matter if they’re driving home from work or traveling across the country or beyond.
+    </p>
+
+- id: unionpacfic
+  name: Union Pacific
+  url: http://www.up.com
+  image: up_logo.png
+  description: |
+
+    <p class="lead">About Union Pacific</p>
+
+    <p>
+      Union Pacific Corporation (NYSE:UNP) is one of America's leading transportation companies. Its principal operating company, Union Pacific Railroad, is North America's premier railroad franchise, covering 23 states across the western two-thirds of the United States.
+
+      <p class="lead">VISION:</p>
+      <p>  
+        Building America.
+        Our vision symbolizes the Union Pacific experience for all the people whose lives we touch. It connects the importance of UP’s rail transportation to America's economy, honors the generations that preceded us and is the promise for the generations that will follow us.
+      </p>
+
+      <p class="lead">MISSION:</p>
+      <p>  
+        The Men and Women of Union Pacific Are Dedicated to Serve.
+        Union Pacific works for the good of our customers, shareholders, communities and one another. Our commitment defines us and drives the economic strength of our company and our country.
+      </p>
+
+      <p class="lead">VALUES:</p>
+      <p>  
+        <p>
+          Passion for Performance.<br />
+          Our passion, concentration and determination will drive our safety, customer satisfaction and quality results.
+        </p>
+        
+        <p>
+          High Ethical Standards. <br />
+          Our reputation will always be a source of pride for our employees and a bond with our customers, shareholders and communities.
+        </p>
+        <p>
+          Work as a Team. <br />
+          We are all part of the same team, and working together to reach our common goals is one of our strengths. Communication and respect are the foundation of great teamwork.
+        </p>
+      </p>

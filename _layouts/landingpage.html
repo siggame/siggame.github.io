@@ -1,0 +1,86 @@
+<!doctype html>
+{% include mainhead.html %}
+
+{% include navbar.html %}
+<body>
+<div>
+  <!--JUMBOTRON-->
+  <div class="jumbotron">
+  <div class="container">
+    <div class="namespace">
+      <img src="{{ site.static_url }}img/brand.svg"/>
+      <!--<h1>SIG-Game</h1>-->
+    </div>
+
+    <p>SIG-Game is a special interest group for Missouri S&T students that develops and hosts artificial intelligence
+        programming competitions on S&T's campus in Rolla, Missouri.</p>
+  </div>
+  </div>
+</div>
+
+  <!--Recent Blog Posts-->
+  <div class="container blogcontainer">
+  <div class="row recentblog">
+      <div class="container-fluid sponsors_header">
+          <div class="row">
+              <h1>Recent Updates:</h1>
+          </div>
+      </div>
+      {% for post in site.posts limit:1 %}
+      <div class="col-md-12">
+          <h3 class="">{{ post.title }}</h3>
+          <a href="{{ base }}{{ post.url }}">{{ post.content }}</a>
+          {% endfor %}
+      </div>
+  </div>
+  </div>
+
+  <!--Who Are We Section-->
+  <div class="aboutsection container">
+      <div class="container-fluid">
+      </div>
+      <h1>What is SIG-Game?</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel purus orci. Mauris facilisis ligula eu faucibus aliquam. Pellentesque elementum urna et pulvinar faucibus. Integer nec metus nisi. Morbi in nibh euismod, finibus ipsum vel, rutrum quam. Sed nec lobortis felis. Nam pharetra gravida magna non aliquet. Ut elementum tempor consequat. Suspendisse potenti. Nullam dictum efficitur nunc sed ultricies. Vivamus blandit, tortor sit amet commodo fringilla, risus libero consectetur massa, et pellentesque quam est at lorem. Ut placerat, sem nec ultrices scelerisque, neque ligula fringilla felis, eget gravida enim sem eu leo.</br></br>Quisque lectus ipsum, luctus pharetra orci vitae, fermentum maximus velit. Sed fermentum, dui sed mollis mollis, sem lacus maximus velit, a gravida nisi tellus sed eros. Duis varius mattis risus, a lacinia nunc luctus et. Vivamus vel tortor cursus, fringilla metus in, volutpat eros. Vivamus at convallis leo, et vulputate libero. Quisque fermentum ex eget arcu convallis, facilisis blandit dolor laoreet. Aliquam efficitur volutpat risus et bibendum. Etiam eu massa hendrerit dui pretium tempus. Aenean dapibus tempus ligula eu interdum. Phasellus sit amet nisi lorem. Curabitur et posuere enim.</p>
+  </div>
+
+  <!--Sponsors Section-->
+  <div class="sponsorcontainer container">
+    <div class="container-fluid sponsors_header">
+        <div class="row">
+            <h1 class="">Our Sponsors</h1>
+        </div>
+    </div>
+      <div class="sponsorspot">
+      {% for sponsor in site.data.sponsors %}
+      {% assign count = forloop.index0 | modulo:3 %}
+          <div class="sponsor col-md-4 col-sm-6 col-xs-12">
+              <a href="/sponsors/#{{ sponsor.id }}" class="thumbnail sponsors_thumbnail">
+                  <img data-src="holder.js/300%x200" alt="{{ sponsor.name }}"
+                       src="{{ site.static_url }}img/sponsor_logos/{{ sponsor.image }}">
+              </a>
+          </div>
+          <!--{% if count == 2 or forloop.index == forloop.length %}</div>{% endif %}-->
+      {% endfor %}
+      </div>
+  </div>
+
+<!-- If we use the above Blog Post layout, this block of code will be useless. -->
+<!-- TODO: Replace with an actual footer w/ GitHub info, etc. -->
+
+
+{% include footer.html %}
+
+
+  <!-- Scripts -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="{{ site.static_url }}js/page_setup.js" type="text/javascript"></script>
+
+
+
+
+</body>
+</html>
+

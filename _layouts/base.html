@@ -1,0 +1,23 @@
+<!doctype html>
+{% include mainhead.html %}
+  <body>
+    {% include navbar.html %}
+
+    {{ content }}
+    {% include footer.html %}
+    <!-- Scripts -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <script src="{{ site.assets_url }}js/bootstrap.min.js" type="text/javascript"></script>
+
+  </body>
+
+  <!-- _includes/base.html -->
+{% assign base = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth <= 1 %}{% assign base = '.' %}
+{% elsif depth == 2 %}{% assign base = '..' %}
+{% elsif depth == 3 %}{% assign base = '../..' %}
+{% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
+</html>
