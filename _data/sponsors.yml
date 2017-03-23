@@ -62,33 +62,6 @@
       we will do.
     </p>
 
-- id: bats
-  name: BATS
-  url: http://batstrading.com
-  image: BATS_logo.png
-  description: |
-
-    <p class="lead">About the BATS Exchanges</p>
-
-    <p>
-      BATS operates two stock exchanges in the U.S., the
-      BZX Exchange and the BYX Exchange (The BATS
-      Exchanges), which currently account for about 12-13%
-      of all U.S. equity trading on a daily basis. Driven
-      by its mission of "Making Markets Better," BATS has
-      become synonymous with great technology, aggressive
-      pricing and outstanding customer service while
-      catering to the needs of the broker-dealer and
-      trading community.
-    </p>
-
-    <p>
-      The BATS Exchanges are a division of BATS Global
-      Markets, a leading operator of stock and options
-      markets in the U.S. and Europe. For more information
-      about BATS Global Markets, please visit www.bats.com.
-    </p>
-
 - id: att
   name: AT&T
   url: http://att.com
