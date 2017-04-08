@@ -4,8 +4,7 @@ title: "MMAI-19: STUMPED Itinerary Schedule"
 author: "Cody Roberts"
 ---
 
-# MegaMinerAI19: Stumped Itinerary Schedule
-
+# MegaMinerAI19: Stumped Itinerary
 ***
 ## Saturday
 ***
