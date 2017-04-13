@@ -31,7 +31,7 @@ This tournament includes **everyone**. No awards beyond the prize of being the b
 
 We'd like to thank everyone involved, from our generous sponsors, and our developers, to our competitors.
 
-If you'd like to see how the entire brackets worked you can find the student results [here][student], and the [global][global] results here. They can be [partially] played back in our [Bracket Visualizer][bracket-vis] (drag and drop the files into the white page).
+If you'd like to see how the entire brackets worked you can find the [student results here][student], and the [global results here][global]. They can be [partially] played back in our [Bracket Visualizer][bracket-vis] (drag and drop the files into the white page).
 
 As always, all our code we used is open source if you want play with it. You can find it all on [GitHub][github].
 
