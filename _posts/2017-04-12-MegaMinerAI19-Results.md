@@ -3,9 +3,7 @@ layout: post
 title: "MegaMinerAI 19: Stumped - Final Results"
 author: "Jacob Fischer"
 ---
-# MegaMinerAI 19: Stumped - Final Results #
-
-![Stumped](https://github.com/siggame/blog/blob/master/static/img/Stumped_transparency.png)
+![Stumped](/static/img/content/Beaver_transparency.png)
 
 Last weekend you guys came out to chopped down many trees and built many lodges. And some were victorious! Here are your tournament winners:
 
