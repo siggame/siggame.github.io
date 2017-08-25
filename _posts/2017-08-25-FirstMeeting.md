@@ -14,4 +14,8 @@ Our first general meeting will be on:
 ###Wednesday, August 30th from 5pm to 6pm in the Computer Science Building Room 207. 
 
 
-Feel free to stop by and learn who we are and what we do! 
+Make sure to stop by and learn who we are and what we do! 
+
+If you can't be there in person, 
+the meeting will also be streamed on [Twitch](https://www.twitch.tv/siggame)
+and feel free to ask questions on our [Discord server](https://discord.gg/QmQqudn)!
