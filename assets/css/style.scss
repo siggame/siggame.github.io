@@ -189,6 +189,16 @@ ul.latestblog {
   // height: 300px;
 }
 
+#post a {
+  text-decoration: underline;
+  color: #0645AD;
+}
+
+#postTitle {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
 /*===== ABOUT =====*/
 .aboutsection {
   max-width: 1170px;
