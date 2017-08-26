@@ -11,7 +11,7 @@ fresh new developers to join our ranks!
 We are looking for anyone, all majors and experience levels welcome! 
 Our first general meeting will be on:
 
-###Wednesday, August 30th from 5pm to 6pm in the Computer Science Building Room 207. 
+<h3>Wednesday, August 30th from 5pm to 6pm in the Computer Science Building Room 207.</h3> 
 
 
 Make sure to stop by and learn who we are and what we do! 
