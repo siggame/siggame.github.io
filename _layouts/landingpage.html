@@ -27,9 +27,9 @@
           </div>
       </div>
       {% for post in site.posts limit:1 %}
-      <div class="col-md-12" id="post">
-          <a href="{{ base }}{{ post.url }}" id="postTitle">
-              <h3 id="postTitleHeader">{{ post.title }}</h3>
+      <div class="col-md-12 post">
+          <a href="{{ base }}{{ post.url }}" class="postTitleLink">
+              <h3 class="postTitleHeader">{{ post.title }}</h3>
           </a>
           {{ post.content }}
           {% endfor %}

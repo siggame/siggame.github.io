@@ -179,7 +179,7 @@ ul.latestblog {
   font-weight: bold;
   font-size: 22px;
 }
-#postTitleHeader {
+.postTitleHeader {
   font-size: 28px;
 }
 .recentblog p {
@@ -192,12 +192,12 @@ ul.latestblog {
   // height: 300px;
 }
 
-#post a {
+.post a {
   text-decoration: underline;
   color: #0645AD;
 }
 
-#postTitle {
+.postTitleLink {
   text-decoration: none !important;
   color: #000000 !important;
 }
