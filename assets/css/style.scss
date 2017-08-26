@@ -179,6 +179,9 @@ ul.latestblog {
   font-weight: bold;
   font-size: 22px;
 }
+.postTitleHeader {
+  font-size: 28px;
+}
 .recentblog p {
   padding-left: 220px;
 }
@@ -187,6 +190,16 @@ ul.latestblog {
 }
 .blogcontainer {
   // height: 300px;
+}
+
+.post a {
+  text-decoration: underline;
+  color: #0645AD;
+}
+
+.postTitleLink {
+  text-decoration: none !important;
+  color: #000000 !important;
 }
 
 /*===== ABOUT =====*/
