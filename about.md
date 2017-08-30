@@ -100,7 +100,7 @@ Contact Us  {#Contact-Us}
 
 {:refdef: .list-unstyled }
 * E-mail SIG-Game at [siggame@mst.edu](mailto:siggame@gmail.com)
-* E-mail the SIG-Game Chair, Joey Kuhn, at <jck244@mst.edu>
+* E-mail the SIG-Game Chair, Victoria Kraemer, at <vjkgz3@mst.edu>
 {: refdef .list-unstyled}
 
 <!--  LocalWords:  MegaMinerAI
