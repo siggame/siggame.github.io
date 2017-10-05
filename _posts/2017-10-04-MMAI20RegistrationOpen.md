@@ -11,4 +11,4 @@ and the chance to win prizes.
 Remember, teams are limited to three people 
 and there is a $4 discount for each ACM Member on your team!
 
-The competition is November 11th to 12th from Noon to Noon.
+### The competition is November 11th to 12th from Noon to Noon.
