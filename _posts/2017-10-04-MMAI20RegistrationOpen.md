@@ -3,6 +3,8 @@ layout: post
 title: "MMAI20 Signups"
 author: "Cody Roberts"
 ---
+![Wrench](/static/img/wrench.png)
+
 The signups for MegaMinerAI 20 are open! Gather your friends 
 and go make your team at [siggame.io](http://siggame.io). 
 
