@@ -7,7 +7,7 @@ author: "Cody Roberts"
 # MegaMinerAI20: Catastrophe Itinerary
 
 ***
-## Saturday
+## Saturday: November 11th
 ***
 
 ### 11:00am 
@@ -41,7 +41,7 @@ We take your last submitted AI and do a quick single elimination tournament. Win
 The first snack run should be back, lots of munchies, soda, fruit, etc to keep you fueled.
 
 ***
-## Sunday
+## Sunday: November 12th
 ***
 ### 12:00am
 
