@@ -75,7 +75,7 @@ Lee's chicken arrives and everyone eats while we get ready for the finale.
 ***
 ### 12:30pm
 
-#### Finale and Final Tournament in Toomey 199
+#### Finale and Final Tournament in BCH 125 (Same as the opening presentation)
 We thank our sponsors, field questions, and hand out T-Shirts to competitors while the final tournament runs. After that the tournament should be over and we visualize winners and hand out prizes for all eligible winners.
 
 ***
