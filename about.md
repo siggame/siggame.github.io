@@ -98,13 +98,6 @@ Our Projects  {#Projects}
 Contact Us  {#Contact-Us}
 ==========
 
-{:refdef: .list-unstyled }
-* E-mail SIG-Game at [siggame@mst.edu](mailto:siggame@gmail.com)
-* E-mail the SIG-Game Chair, Victoria Kraemer, at <vjkgz3@mst.edu>
-{: refdef .list-unstyled}
-
-Suggested Contact Us format Update:
-
 | Contact | Email |
 | -------------- | ---------- | 
 | SIG-GAME | siggame@gmail.com |
