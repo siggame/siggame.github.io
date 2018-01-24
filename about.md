@@ -98,7 +98,7 @@ Our Projects  {#Projects}
 Contact Us  {#Contact-Us}
 ==========
 
-| Contact      | Email |
+| Contact                    | Email |
 | -------------- | ---------- | 
 | SIG-GAME | siggame@gmail.com |
 | Victoria Kraemer - Chair | vjkgz3@mst.edu |
@@ -106,7 +106,7 @@ Contact Us  {#Contact-Us}
 Officers
 --------
 
-| Name      | Officers & Leads | Email |
+| Name                | Officers & Leads | Email |
 |-------------|-----------|------------|
 | Victoria Kraemer | Chair | vjkgz3@mst.edu |
 | Trevan Lang | Vice Chair | txlm4d@mst.edu |
