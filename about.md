@@ -98,24 +98,24 @@ Our Projects  {#Projects}
 Contact Us  {#Contact-Us}
 ==========
 
-| Contact                    | Email |
+| Contact || Email |
 | -------------- | ---------- | 
-| SIG-GAME | siggame@gmail.com |
-| Victoria Kraemer - Chair | vjkgz3@mst.edu |
+| SIG-GAME || siggame@gmail.com |
+| Victoria Kraemer - Chair || vjkgz3@mst.edu |
 
-Officers
+Officers & Leads
 --------
 
-| Name                | Officers & Leads | Email |
+| Name &nbsp;| Role | Email |
 |-------------|-----------|------------|
 | Victoria Kraemer | Chair | vjkgz3@mst.edu |
 | Trevan Lang | Vice Chair | txlm4d@mst.edu |
 | Hannah Reinbolt | Secretary | hmrvg9@mst.edu |
-| Brett Sears | Public Relations | brswc2@mst.edu |
+| Brett Sears | Public Relations &nbsp; | brswc2@mst.edu |
 | Michael Beaver | Web Lead | mbbh8@mst.edu |
 | Reno DuBois | Web Lead | rtdm9c@mst.edu |
 | Quincy Conduff | Arena Lead | qlcfz5@mst.edu |
-| Shawn McCormick | AI Lead | shawn.mccormick@mst.edu |
+| Shawn McCormick &nbsp;| AI Lead | shawn.mccormick@mst.edu |
 | Joshua Pondrom | Vis Lead | japrkf@mst.edu |
 | Chris Kinney | Game Lead | ckq49@mst.edu |
 | Jeffrey Strahm | Vice Game Lead | jssfg8@mst.edu |
