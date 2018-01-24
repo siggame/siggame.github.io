@@ -98,7 +98,7 @@ Our Projects  {#Projects}
 Contact Us  {#Contact-Us}
 ==========
 
-| Contact | Email |
+| Contact      | Email |
 | -------------- | ---------- | 
 | SIG-GAME | siggame@gmail.com |
 | Victoria Kraemer - Chair | vjkgz3@mst.edu |
@@ -106,9 +106,8 @@ Contact Us  {#Contact-Us}
 Officers
 --------
 
-| Name | Role | Email |
+| Name      | Officers & Leads | Email |
 |-------------|-----------|------------|
-| Daniel Tauritz | Faculty Advisor | tauritzd@mst.edu |
 | Victoria Kraemer | Chair | vjkgz3@mst.edu |
 | Trevan Lang | Vice Chair | txlm4d@mst.edu |
 | Hannah Reinbolt | Secretary | hmrvg9@mst.edu |
