@@ -103,44 +103,30 @@ Contact Us  {#Contact-Us}
 * E-mail the SIG-Game Chair, Victoria Kraemer, at <vjkgz3@mst.edu>
 {: refdef .list-unstyled}
 
+Suggested Contact Us format Update:
+
+| Contact | Email |
+| ------- | -------- | 
+| SIG-GAME | siggame@gmail.com |
+| Victoria Kraemer - Chair | vjkgz3@mst.edu |
+
 Officers
 --------
-<table>
-  <colgroup>
-    <col width="40%" />
-    <col width="30%" />
-    <col width="30%" />
-  </colgroup>
 
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Role</th>
-      <th>Email</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td markdown="span">name</td>
-    </tr>
-
-    <tr>
-      <td markdown="span">position</td>
-    </tr>
-
-    <tr>
-      <td markdown="span"></td>
-    </tr>
-
-  </tbody>
-</table>
-
-| Priority apples | Second priority | Third priority |
+| Name | Role | Email |
 |-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| Daniel Tauritz | Faculty Advisor | tauritzd@mst.edu |
+| Victoria Kraemer | Chair | vjkgz3@mst.edu |
+| Trevan Lang | Vice Chair | txlm4d@mst.edu |
+| Hannah Reinbolt | Secretary | hmrvg9@mst.edu |
+| Brett Sears | Public Relations | brswc2@mst.edu |
+| Michael Beaver | Web Lead | mbbh8@mst.edu |
+| Reno DuBois | Web Lead | rtdm9c@mst.edu |
+| Quincy Conduff | Arena Lead | qlcfz5@mst.edu |
+| Shawn McCormick | AI Lead | shawn.mccormick@mst.edu |
+| Joshua Pondrom | Vis Lead | japrkf@mst.edu |
+| Chris Kinney | Game Lead | ckq49@mst.edu |
+| Jeffrey Strahm | Vice Game Lead | jssfg8@mst.edu |
 
 <!--  LocalWords:  MegaMinerAI
  -->
