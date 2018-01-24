@@ -103,5 +103,44 @@ Contact Us  {#Contact-Us}
 * E-mail the SIG-Game Chair, Victoria Kraemer, at <vjkgz3@mst.edu>
 {: refdef .list-unstyled}
 
+Officers
+--------
+<table>
+  <colgroup>
+    <col width="40%" />
+    <col width="30%" />
+    <col width="30%" />
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Role</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td markdown="span">name</td>
+    </tr>
+
+    <tr>
+      <td markdown="span">position</td>
+    </tr>
+
+    <tr>
+      <td markdown="span"></td>
+    </tr>
+
+  </tbody>
+</table>
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
 <!--  LocalWords:  MegaMinerAI
  -->
