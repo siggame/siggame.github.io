@@ -108,6 +108,7 @@ Officers & Leads
 
 | Name &nbsp;| Role | Email |
 |-------------|-----------|------------|
+| Dr. Daniel Tauritz | Faculty Advisor | tauritzd@mst.edu |
 | Victoria Kraemer | Chair | vjkgz3@mst.edu |
 | Trevan Lang | Vice Chair | txlm4d@mst.edu |
 | Hannah Reinbolt | Secretary | hmrvg9@mst.edu |
