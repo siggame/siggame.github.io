@@ -115,7 +115,7 @@ Officers & Leads
 | Brett Sears | Public Relations &nbsp;| brswc2@mst.edu |
 | Dillon Hess | Web Lead | dnhc59@mst.edu |
 | Eric Willard | Web Lead | emwwwc@mst.edu |
-| Quincy Conduff | Arena Lead | qlcfz5@mst.edu |
+| TBD | Arena Lead | TBD |
 | Shawn McCormick &nbsp;| AI Lead | shawn.mccormick@mst.edu |
 | Chau Le | Vis Lead | japrkf@mst.edu |
 | Jeffrey Strahm | Game Lead | jssfg8@mst.edu |
