@@ -101,7 +101,7 @@ Contact Us  {#Contact-Us}
 | Contact || Email |
 | -------------- | ---------- | 
 | SIG-GAME || siggame@gmail.com |
-| Victoria Kraemer - Chair || vjkgz3@mst.edu |
+| Trevan Lang - Chair || txlm4d@mst.edu |
 
 Officers & Leads
 --------
@@ -109,17 +109,16 @@ Officers & Leads
 | Name &nbsp;| Role | Email |
 |-------------|-----------|------------|
 | Dr. Daniel Tauritz | Faculty Advisor | tauritzd@mst.edu |
-| Victoria Kraemer | Chair | vjkgz3@mst.edu |
-| Trevan Lang | Vice Chair | txlm4d@mst.edu |
+| Trevan Lang | Chair | txlm4d@mst.edu |
+| Josh Cash | Vice Chair | jjcfz2@mst.edu |
 | Hannah Reinbolt | Secretary | hmrvg9@mst.edu |
-| Brett Sears | Public Relations &nbsp; | brswc2@mst.edu |
-| Michael Beaver | Web Lead | mbbh8@mst.edu |
-| Reno DuBois | Web Lead | rtdm9c@mst.edu |
+| Brett Sears | Public Relations &nbsp;| brswc2@mst.edu |
+| Dillon Hess | Web Lead | dnhc59@mst.edu |
+| Eric Willard | Web Lead | emwwwc@mst.edu |
 | Quincy Conduff | Arena Lead | qlcfz5@mst.edu |
 | Shawn McCormick &nbsp;| AI Lead | shawn.mccormick@mst.edu |
-| Joshua Pondrom | Vis Lead | japrkf@mst.edu |
-| Chris Kinney | Game Lead | ckq49@mst.edu |
-| Jeffrey Strahm | Vice Game Lead | jssfg8@mst.edu |
+| Chau Le | Vis Lead | japrkf@mst.edu |
+| Jeffrey Strahm | Game Lead | jssfg8@mst.edu |
 
 <!--  LocalWords:  MegaMinerAI
  -->
