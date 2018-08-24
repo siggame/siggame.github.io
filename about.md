@@ -116,8 +116,8 @@ Officers & Leads
 | Dillon Hess | Web Lead | dnhc59@mst.edu |
 | Eric Willard | Web Lead | emwwwc@mst.edu |
 | TBD | Arena Lead | TBD |
-| Shawn McCormick &nbsp;| AI Lead | shawn.mccormick@mst.edu |
-| Chau Le | Vis Lead | japrkf@mst.edu |
+| Tom Tronko | AI Lead | tgt5h3@mst.edu |
+| LanChau LeTran | Vis Lead | lnlwc3@mst.edu |
 | Jeffrey Strahm | Game Lead | jssfg8@mst.edu |
 
 <!--  LocalWords:  MegaMinerAI
