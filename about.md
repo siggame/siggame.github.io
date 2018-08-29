@@ -115,7 +115,7 @@ Officers & Leads
 | Brett Sears | Public Relations &nbsp;| brswc2@mst.edu |
 | Dillon Hess | Web Lead | dnhc59@mst.edu |
 | Eric Willard | Web Lead | emwwwc@mst.edu |
-| TBD | Arena Lead | TBD |
+| Seth Kitchen | Arena Lead | sjkyv5@mst.edu |
 | Tom Tronko | AI Lead | tgt5h3@mst.edu |
 | LanChau LeTran | Vis Lead | lnlwc3@mst.edu |
 | Jeffrey Strahm | Game Lead | jssfg8@mst.edu |
