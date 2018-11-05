@@ -8,4 +8,4 @@ author: "Eric Willard"
 MegaminerAI 22 is in the works. The title of the game this semester is Newtonian!
 MegaminerAI 22 will take place November 10th - 11th in Toomey. 
 
-More information will be posted later.
+The competition will being at 11am in Toomey room 199. 
