@@ -115,7 +115,6 @@ Officers & Leads
 | Donald Shaw | Public Relations &nbsp;| [drs3f6@mst.edu](mailto:drs3f6@mst.edu) |
 | Nicholas Latinette | Web Lead | [nalrnw@mst.edu](mailto:nalrnw@mst.edu) |
 | Tanner May | Arena Lead | [tamfrb@mst.edu](mailto:tamfrb@mst.edu) |
-| Tom Trunko | AI Lead | [tgt5h3@mst.edu](mailto:tgt5h3@mst.edu) |
 | Alan Truong | Vis Lead | [atwpb@mst.edu](mailto:atwpb@mst.edu) |
 | Jake Austin | Game Lead | [janmc8@mst.edu](mailto:janmc8@mst.edu) |
 
