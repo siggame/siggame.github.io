@@ -101,22 +101,22 @@ Contact Us  {#Contact-Us}
 | Contact || Email |
 | -------------- | ---------- | 
 | SIG-GAME || [siggame@gmail.com](mailto:siggame@gmail.com) |
-| Trevan Lang - Chair || [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
-| Kameryn West - Vice Chair || [ksyh3@mst.edu](mailto:ksyh3@mst.edu) |
+| Trevan Lang  - Chair  || [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
+| Kameryn West  - Vice Chair  || [ksyh3@mst.edu](mailto:ksyh3@mst.edu) |
 
 Officers & Leads
 --------
 
 | Name &nbsp;| Role | Email |
 |-------------|-----------|------------|
-| Dr. Daniel Tauritz | Faculty Advisor | [tauritzd@mst.edu](mailto:tauritzd@mst.edu) |
-| Trevan Lang | Chair | [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
+| Dr. Daniel Tauritz  | Faculty Advisor | [tauritzd@mst.edu](mailto:tauritzd@mst.edu) |
+| Trevan Lang  | Chair | [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
 | Kameryn West | Vice Chair | [knwhhc@mst.edu](mailto:knwhhc@mst.edu) |
-| Donald Shaw | Public Relations &nbsp;| [drs3f6@mst.edu](mailto:drs3f6@mst.edu) |
-| Nicholas Latinette | Web Lead | [nalrnw@mst.edu](mailto:nalrnw@mst.edu) |
-| Tanner May | Arena Lead | [tamfrb@mst.edu](mailto:tamfrb@mst.edu) |
-| Alan Truong | Vis Lead | [atwpb@mst.edu](mailto:atwpb@mst.edu) |
-| Jake Austin | Game Lead | [janmc@mst.edu](mailto:janmc@mst.edu) |
+| Donald Shaw  | Public Relations &nbsp;| [drs3f6@mst.edu](mailto:drs3f6@mst.edu) |
+| Nicholas Latinette  | Web Lead | [nalrnw@mst.edu](mailto:nalrnw@mst.edu) |
+| Tanner May  | Arena Lead | [tamfrb@mst.edu](mailto:tamfrb@mst.edu) |
+| Alan Truong  | Vis Lead | [atwpb@mst.edu](mailto:atwpb@mst.edu) |
+| Jake Austin  | Game Lead | [janmc@mst.edu](mailto:janmc@mst.edu) |
 
 <!--  LocalWords:  MegaMinerAI
  -->
