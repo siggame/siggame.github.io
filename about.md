@@ -107,7 +107,7 @@ Contact Us  {#Contact-Us}
 Officers & Leads
 --------
 
-| Name &nbsp;| Role | Email |
+| Name &nbsp; | Role  |  Email |
 |-------------|-----------|------------|
 | Dr. Daniel Tauritz  | Faculty Advisor | [tauritzd@mst.edu](mailto:tauritzd@mst.edu) |
 | Trevan Lang  | Chair | [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
