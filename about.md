@@ -102,6 +102,7 @@ Contact Us  {#Contact-Us}
 | -------------- | ---------- | 
 | SIG-GAME || [siggame@gmail.com](mailto:siggame@gmail.com) |
 | Trevan Lang - Chair || [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
+| Kameryn West - Vice Chair || [ksyh3@mst.edu](mailto:ksyh3@mst.edu) |
 
 Officers & Leads
 --------
@@ -110,15 +111,12 @@ Officers & Leads
 |-------------|-----------|------------|
 | Dr. Daniel Tauritz | Faculty Advisor | [tauritzd@mst.edu](mailto:tauritzd@mst.edu) |
 | Trevan Lang | Chair | [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
-| Josh Cash | Vice Chair | [jjcfz2@mst.edu](mailto:jjcfz2@mst.edu) |
-| Nathan Ambrough | Secretary | [nifqpc@mst.edu](mailto:nifqpc@mst.edu) |
-| Donald Shaw | Public Relations &nbsp;| [dr53f6@mst.edu](mailto:dr53f6@mst.edu) |
-| Dillon Hess | Web Lead | [dnhc59@mst.edu](mailto:dnhc59@mst.edu) |
-| Eric Willard | Web Lead | [emwwwc@mst.edu](mailto:emwwwc@mst.edu) |
-| Seth Kitchen | Arena Lead | [sjkyv5@mst.edu](mailto:sjkyv5@mst.edu) |
-| Tom Trunko | AI Lead | [tgt5h3@mst.edu](mailto:tgt5h3@mst.edu) |
+| Kameryn West | Vice Chair | [knwhhc@mst.edu](mailto:knwhhc@mst.edu) |
+| Donald Shaw | Public Relations &nbsp;| [drs3f6@mst.edu](mailto:drs3f6@mst.edu) |
+| Nicholas Latinette | Web Lead | [nalrnw@mst.edu](mailto:nalrnw@mst.edu) |
+| Tanner May | Arena Lead | [tamfrb@mst.edu](mailto:tamfrb@mst.edu) |
 | Alan Truong | Vis Lead | [atwpb@mst.edu](mailto:atwpb@mst.edu) |
-| Jeffrey Strahm | Game Lead | [jssfg8@mst.edu](mailto:jssfg8@mst.edu) |
+| Jake Austin | Game Lead | [janmc@mst.edu](mailto:janmc@mst.edu) |
 
 <!--  LocalWords:  MegaMinerAI
  -->
