@@ -39,4 +39,4 @@ Visualizer:
 Web:
   - {name: siggame-vote, url: 'https://github.com/siggame/siggame-vote'}
   - {name: siggame.github.io, url: 'https://github.com/siggame/siggame.github.io'}
-  - {name: webserver, url: 'https://github.com/siggame/webserver'}
+  - {name: webserver, url: 'https://github.com/siggame/ophelia'}
