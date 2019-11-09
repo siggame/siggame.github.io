@@ -109,7 +109,7 @@ Officers & Leads
 
 | Name &nbsp; | Role  |  Email |
 |-------------|-----------|------------|
-| Dr. Daniel Tauritz  | Faculty Advisor | [tauritzd@mst.edu](mailto:tauritzd@mst.edu) |
+| Dr. Angel Morales  | Faculty Advisor | [ricardom@mst.edu](mailto:ricardom@mst.edu) |
 | Trevan Lang  | Chair | [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
 | Kameryn West | Vice Chair | [knwhhc@mst.edu](mailto:knwhhc@mst.edu) |
 | Donald Shaw  | Public Relations  &nbsp;| [drs3f6@mst.edu](mailto:drs3f6@mst.edu) |
