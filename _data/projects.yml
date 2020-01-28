@@ -21,7 +21,8 @@ MegaMinerAI:
   - {name: 'MegaMinerAI 21: Pirates', url: 'https://github.com/siggame/Cadre/tree/master/Games/Pirates'}
   - {name: 'MegaMinerAI 22: Newtonian', url: 'https://github.com/siggame/Cadre/tree/master/Games/Newtonian'}
   - {name: 'MegaMinerAI 23: Stardash', url: 'https://github.com/siggame/Cadre/tree/master/Games/Stardash'}
-  - {name: 'MegaMinerAI 24: Necro War', url: 'https://github.com/siggame/Cadre/tree/master/Games/Newtonian'}
+  - {name: 'MegaMinerAI 24: Necro War', url: 'https://github.com/siggame/Cadre/tree/master/Games/Necrowar'}
+  - {name: 'MegaMinerAI 25: Core Miner', url: ''}
 Game Framework:
   - {name: MegaMinerAI-Framework, url: 'https://github.com/siggame/MegaMinerAI-Framework'}
   - {name: client, url: 'https://github.com/siggame/client'}
