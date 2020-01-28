@@ -101,7 +101,7 @@ Contact Us  {#Contact-Us}
 | Contact || Email |
 | -------------- | ---------- | 
 | SIG-GAME || [siggame@gmail.com](mailto:siggame@gmail.com) |
-| Trevan Lang  - Chair  || [txlm4d@mst.edu](mailto:txlm4d@mst.edu) |
+| Jake Austin  - Chair  || [janmc@mst.edu](mailto:janmc@mst.edu) |
 | Kameryn West  - Vice Chair  || [ksyh3@mst.edu](mailto:ksyh3@mst.edu) |
 
 Officers & Leads
