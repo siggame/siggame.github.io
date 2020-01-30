@@ -115,7 +115,7 @@ Officers & Leads
 | Donald Shaw  | Public Relations  &nbsp;| [drs3f6@mst.edu](mailto:drs3f6@mst.edu) |
 | Nicholas Latinette  &nbsp;|  Web Lead | [nalrnw@mst.edu](mailto:nalrnw@mst.edu) |
 | Drew Brissette  | Arena Lead | [jkhd67@umsystem.edu](mailto:jkhd67@umsystem.edu) |
-| Jonathon Henderson | Game Lead | [jkhd67@umsystem.edu](mailto:jkhd67@umsystem.edu) |
+| Jonathan Henderson &nbsp; | Game Lead | [jkhd67@umsystem.edu](mailto:jkhd67@umsystem.edu) |
 | Leo Flaker | Vis Lead 1 | [lafcz3@umsystem.edu](mailto:lafcz3@umsystem.edu) |
 | Anthony Truong | Vis Lead 2 | [atrm3@umsystem.edu](mailto:atrm3@umsystem.edu) |
 
