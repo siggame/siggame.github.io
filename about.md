@@ -3,12 +3,12 @@ layout: about
 title: About Us
 navbar: about
 ---
-A Brief History of SIG-Game  {#Brief-History}
+A Brief History of ACM-Game  {#Brief-History}
 ===========================
 
 The Missouri S&amp;T Association for Computing Machinery (ACM)
 Special Interest Group for AI Competition Game Development
-(SIG-Game) started in Fall 2007 as a gung-ho group of developers
+(ACM-Game) started in Fall 2007 as a gung-ho group of developers
 from Missouri S&amp;T loosely associated with the S&amp;T
 student chapter of ACM. Their goal was to create a programming
 competition designed to test a competitor’s ability to design
@@ -25,6 +25,10 @@ evolutionary algorithms, game theory, graphic design, interpreters,
 language interoperability, meta programming, parallel computing,
 procedural generation, testing, visualization, and more.
 
+Eventually, the organization would choose to change their name
+from SIG-Game to ACM-Game, as SIG-Game made it hard to know
+that it was apart of ACM.
+
 <div class="text-center">
   <img src="{{ site.static_url }}img/wrench.png" style="width:75px;">
 </div>
@@ -36,13 +40,13 @@ MegaMinerAI
 -----------
 
 MegaMinerAI is a 24-hour artificial intelligence (AI) programming
-competition hosted each semester by S&T ACM SIG-Game. Competitors must
+competition hosted each semester by S&T ACM-Game. Competitors must
 use their 24-hours to develop a program to play a novel game developed
-by SIG-Game's development team. The details of the game are kept
+by ACM-Game's development team. The details of the game are kept
 secret until the day of competition, so competitors must demonstrate
 their wits and coding skills to develop the best AI!
 
-Programs are pitted against one another in SIG-Game's Arena, where
+Programs are pitted against one another in ACM-Game's Arena, where
 thousands of games are played in the cloud. Game results are available
 to users, so that they may further debug their code and refine their
 strategy. After the competition ends, a triple-elimination is run to
@@ -53,14 +57,14 @@ Open Source
 -----------
 
 In addition to developing novel games for MegaMinerAI, the
-SIG-Game Development team develops and maintains a framework to
+ACM-Game Development team develops and maintains a framework to
 host MegaMinerAI and other programming competitions. Though game
 details are kept secret until competition day, our framework is
 open source and available
 on <a target="_blank" href="https://github.com/siggame">GitHub</a>.
 
 
-As our competition attendance has grown to record levels, the SIG-Game
+As our competition attendance has grown to record levels, the ACM-Game
 Developers have begun a redesign of the competition framework. Each
 component of the framework is open source and available on GitHub.
 
