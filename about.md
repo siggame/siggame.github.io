@@ -106,7 +106,7 @@ Contact Us  {#Contact-Us}
 | -------------- | ---------- | 
 | SIG-GAME || [siggame@gmail.com](mailto:siggame@gmail.com) |
 | Jake Austin  - Chair  || [janmc@mst.edu](mailto:janmc@mst.edu) |
-| Kameryn West  - Vice Chair  || [ksyh3@mst.edu](mailto:ksyh3@mst.edu) |
+| Kameryn West  - Vice Chair  || [knwhhc@mst.edu](mailto:ksyh3@mst.edu) |
 
 Officers & Leads
 --------
