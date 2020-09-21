@@ -9,7 +9,7 @@ highlighter: rouge
 markdown: kramdown
 
 static_url: /static/
-production_url : "http://siggame.io"
+production_url : "http://acmgame.io"
 
 assets_url: /assets/
 
