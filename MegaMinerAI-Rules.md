@@ -93,7 +93,7 @@ Registration Fees
     eligible for a discount.
 - Teams who do not pay the registration fee will be removed from the
   competition.
-  - SIG-Game Developers will attempt to contact unpaid teams before
+  - ACM-Game Developers will attempt to contact unpaid teams before
     removing them.
 
 Teams
@@ -101,10 +101,10 @@ Teams
 
 - Teams must have at least one member and may not exceed three
   members.
-- Teams must be formed on SIG-Game’s website prior to the start of the
+- Teams must be formed on ACM-Game’s website prior to the start of the
   competition. All code submissions must be made through this site.
 - Competitors without teams (free agents) will have an opportunity to form
-  teams at the beginning of MegaMinerAI. SIG-Game will attempt to help
+  teams at the beginning of MegaMinerAI. ACM-Game will attempt to help
   freeagents find teams to join.
 - Prize eligibility varies based on the status of team members. Please
   see the "Eligibility" section below.
@@ -127,7 +127,7 @@ Tournament
 
 ### Submitting Code
 
-- All code submissions must happen through SIG-Game’s website.
+- All code submissions must happen through ACM-Game’s website.
 - All code must execute on an Ubuntu 14.04 Linux machine using the
   following restrictions
   - Makefiles
@@ -151,7 +151,7 @@ Tournament
   successfully compile and run as described***. No changes are necessary
   to compile ShellAI. In most cases, the ``Makefile`` and ``run`` do
   not require modification to work with other AIs as well.
-- Teams should ask SIG-Game Developers for help if necessary.
+- Teams should ask ACM-Game Developers for help if necessary.
 
 ### Quick Draw Tournaments
 
@@ -167,7 +167,7 @@ Tournament
 - Participation:
   - Student teams may participate
   - Non-student teams may participate
-  - SIG-Game Developer teams **may not** participate
+  - ACM-Game Developer teams **may not** participate
 - Tournament Configuration
   - Single Elimination
   - Prize awarded to first place winner
@@ -182,7 +182,7 @@ Final Tournament
 - Participation:
   - Student teams may participate
   - Non-student teams **may not** participate
-  - SIG-Game Developer teams **may not** participate
+  - ACM-Game Developer teams **may not** participate
 - Tournament Configuration
   - Triple Elimination
   - Prizes awarded to first, second, and third place winners
@@ -191,12 +191,12 @@ Final Tournament
 ### Global Tournament
 
 - Purpose: The final tournament determines the top three teams
-  (student, non-student, and SIG-Game Developer teams)
+  (student, non-student, and ACM-Game Developer teams)
 - Prize - No prizes are awarded
 - Participation:
   - Student teams may participate
   - Non-student teams may participate
-  - SIG-Game Developer teams may participate
+  - ACM-Game Developer teams may participate
 - Tournament Configuration
   - Triple Elimination
   - Brackets seeded according to performance in the Arena
@@ -209,9 +209,9 @@ Eligibility
 - All competitors are expected to be physically present at the
   competition venue.
 - Exceptions for remote competitors may be made at the discretion of
-  SIG-Game. Opportunities for remote competition are strictly
+  ACM-Game. Opportunities for remote competition are strictly
   limited to:
-  - SIG-Game Developer Alumni
+  - ACM-Game Developer Alumni
   - ACM / MegaMinerAI Sponsors
 
 ### Eligibility to win prizes
@@ -221,13 +221,13 @@ Eligibility
   - Remote competitors are not eligible to win prizes.
   - If a prize-winning team is unable to attend the Closing
     Ceremony, they are still eligible to win prizes.
-- If a team has one or more SIG-Game Developer member, that team will
+- If a team has one or more ACM-Game Developer member, that team will
   be ineligible to win **any** prizes at MegaMinerAI.
 - All team members *must* be full-time or part-time students to be
   eligible for prizes in the Final Tournament.
   - If a team has one or more non-student member, that team will be
     ineligible to win prizes in the Final Tournament.
-- Any student or non-student team (that has zero SIG-Game Developer
+- Any student or non-student team (that has zero ACM-Game Developer
   members) may win prizes during a Quick Draw tournament.
   - Non-student team members do not affect a team's eligibility to win
     prizes during a Quick Draw tournament.
@@ -237,7 +237,7 @@ Receiving Help
 
 During the competition, Developers will be available to answer any
 questions that competitors may have. If you, as a competitor, have any
-questions, please ask them for help. All SIG-Game Developers can be
+questions, please ask them for help. All ACM-Game Developers can be
 easily identified, as they will be wearing the T-Shirt for the current
 MegaMinerAI.
 
@@ -251,23 +251,23 @@ during competition hours
 Cheating and Dishonesty
 -----------------------
 
-If a team is suspected of cheating or sabotaging SIG-Game, MegaMinerAI,
-or another competing team, SIG-Game will revoke the eligibility of the
+If a team is suspected of cheating or sabotaging ACM-Game, MegaMinerAI,
+or another competing team, ACM-Game will revoke the eligibility of the
 saboteur’s entire team and remove that team from the competition. The
 final decision to remove a team from competition will be made by the
-Chair of SIG-Game.
+Chair of ACM-Game.
 
 Please note that this does not include game strategies. For example, if
 an AI is written to perform well against one particular opponent,
-SIG-Game does not consider this sabotage. If, however, an AI was
-designed to exploit security vulnerabilities in SIG-Game’s
-infrastructure or an opponent’s code, SIG-Game would consider this
+ACM-Game does not consider this sabotage. If, however, an AI was
+designed to exploit security vulnerabilities in ACM-Game’s
+infrastructure or an opponent’s code, ACM-Game would consider this
 actionable sabotage.
 
 ### Examples of acceptable and unacceptable actions:
 
 Please note that these are examples. If you have questions about other
-actions, please contact SIG-Game.
+actions, please contact ACM-Game.
 
 #### Acceptable:
 
@@ -300,7 +300,7 @@ competitors in the manner described in these rules.
 Also, competitors agree by submitting code to this competition to allow the use
 of their code by the organizers of this competition during and after the
 competition, exclusively for the purposes of testing and refining infrastructure
-maintained by SIG-Game. Competitors' code will not be used, in whole or in part,
+maintained by ACM-Game. Competitors' code will not be used, in whole or in part,
 for any other purpose after the duration of the competition.
 
 
@@ -308,7 +308,7 @@ Other Rules and Policies
 ------------------------
 
 All other decisions not covered in this document will be made by the
-Chair of SIG-Game or their designee.
+Chair of ACM-Game or their designee.
 
 Changes to this document
 ------------------------
