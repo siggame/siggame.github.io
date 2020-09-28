@@ -16,14 +16,14 @@ The following terms are used in this document:
 - **ACM**: ACM refers to Missouri S&T’s local chapter of the
   Association of Computing Machinery. It is a Recognized Student
   Organization (RSO) at Missouri S&T.
-- **SIG-Game**: Missouri S&T ACM SIG-Game is a special interest group
+- **ACM-Game**: Missouri S&T ACM ACM-Game is a special interest group
   of Missouri S&T’s local chapter of ACM. Its purpose is to host
   MegaMinerAI once per semester. This includes logistics involved in
   hosting the competition, as well as development of software
   required to support it.
-- **SIG-Game Developer**: A member of SIG-Game who was exposed to
-  game-specific information for MegaMinerAI. SIG-Game maintains a
-  list of people who have had access to this information. SIG-Game
+- **ACM-Game Developer**: A member of ACM-Game who was exposed to
+  game-specific information for MegaMinerAI. ACM-Game maintains a
+  list of people who have had access to this information. ACM-Game
   Developers are not eligible for any prizes.
 - **Student Team**: A team comprised entirely of currently enrolled
   students. Each member may be either a full-time or a part-time
@@ -31,8 +31,8 @@ The following terms are used in this document:
   institution. MegaMinerAI is not limited to S&T students.
 - **Non-student Team**: A team containing at least one member who is
   **not** enrolled as a full-time student or a part-time student.
-- **SIG-Game Developer Team**: A team containing at least one member
-  who is a SIG-Game Developer. These teams are not eligible for **any**
+- **ACM-Game Developer Team**: A team containing at least one member
+  who is a ACM-Game Developer. These teams are not eligible for **any**
   prizes. However, Developers work hard to test MegaMinerAI, and often
   want to test their own AIs in the arena.
 
@@ -46,11 +46,11 @@ reserved rooms are considered the competition venue.
 ### Traveling Competitors
 
 Competitors who intend to travel to Rolla to participate in MegaMinerAI
-should notify SIG-Game as soon as possible. This will enable SIG-Game to
+should notify ACM-Game as soon as possible. This will enable ACM-Game to
 request enough temporary accounts for competitors. Additionally, S&T’s
 IT department requires personal contact information from visitors to
 enable network access for personal devices. If a visiting competitor
-fails to inform SIG-Game of their travel plans, that competitor may be
+fails to inform ACM-Game of their travel plans, that competitor may be
 unable to use S&T’s network to obtain Internet access.
 
 Schedule and Phases of Competition
