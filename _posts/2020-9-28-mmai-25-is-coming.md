@@ -6,7 +6,7 @@ author: "Nicholas Latinette"
 ![Wrench Logo](/static/img/wrench.png)
 Register now for Megaminer AI:25 Core Miner!
 When: November 7th 11am – November 8th 4pm
-Where: This year will be entirely online! Join our discord to stay up to date.   https://discord.gg/qhUMer
+Where: This year will be entirely online! Join our discord to stay up to date.  <a>https://discord.gg/qhUMer</a>
 
 Megaminer AI is a 24 hour AI v AI programming competition in a game we make new every event. This year marks our first full year development cycle and we are excited to say it is our best game yet! This year will also be our first competition done entirely online. Meaning you can stay safe and compete from the comfort of your own home!
 
@@ -16,7 +16,7 @@ First Place - $300
 Second Place -$150
 Third Place - $100
 Cost: $10 per team (up to 3)
-Shirts: Due to the competition being online we are unable to provide the food and shirts we normally do. However this year’s shirts and other merch can still be purchased at https://teespring.com/stores/acm-game
+Shirts: Due to the competition being online we are unable to provide the food and shirts we normally do. However this year’s shirts and other merch can still be purchased at <a>https://teespring.com/stores/acm-game</a>
 
 
 
