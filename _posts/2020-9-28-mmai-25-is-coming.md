@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MegaMiner 25 Is Coming!"
+title: "MegaMiner 25 Is Soon!"
 author: "Nicholas Latinette"
 ---
 ![Wrench Logo](/static/img/wrench.png)
